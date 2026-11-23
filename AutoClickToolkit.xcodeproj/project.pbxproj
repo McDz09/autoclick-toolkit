@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD7870E0C6F45996A188BEF2 /* SwitchControlHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28054133B75C28992F33F2 /* SwitchControlHelper.swift */; };
+		705F5C88C1995CA697255715 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E756C97C431506F9D3744DB /* AppEnvironment.swift */; };
+		D0C4E9A68F955DDE9501D8A1 /* AutoClickToolkitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9D041DEC7B5B7A8A0B9CB4 /* AutoClickToolkitApp.swift */; };
+		FAE3D5A2227352F79A140DE5 /* ActionExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B5BCEC70F95B8D8179F725 /* ActionExecutor.swift */; };
+		0984E13671555830A8215E68 /* AutoClickEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4AA41FF6FD502B88EECD9F /* AutoClickEngine.swift */; };
+		D6F1DEA9372F5F82A2863ADC /* InAppGestureDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A4ADF5EF9B5CFBB63A33B3 /* InAppGestureDispatcher.swift */; };
+		FCC9FCCCED015A2591F02EDA /* MacroModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67150F8BA3533C90885A0F /* MacroModels.swift */; };
+		CA248BB59F10530B953FF285 /* MacroStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88261BE25015FF3B06CE976 /* MacroStorageManager.swift */; };
+		659AF82BE40A5AC893289649 /* AutoClickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5C5B0A9E6856D1B443A6D4 /* AutoClickerView.swift */; };
+		0786E12DF5EF5A1CABBD379D /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D495A6DD2B8D5C8B9043EFA4 /* ActionButton.swift */; };
+		0F3369D182CB5D179FFCE009 /* CoordinateCrosshair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7338B9C4D13C5A02AADAD29C /* CoordinateCrosshair.swift */; };
+		7AEE91E7281B50EC9710F3EC /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE44BBD4614552A59C0DBFEB /* GlassCard.swift */; };
+		4E768CA17E085F7B8C5955CC /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B944F3547EF75A4EB11EEF10 /* DashboardView.swift */; };
+		376E29CF7E7158228AA810B6 /* MacroStudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F944C92A9D7A564BB66061F1 /* MacroStudioView.swift */; };
+		830B50D137EB578993514BC7 /* StepEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB746931F9B85DB8B12759AE /* StepEditorView.swift */; };
+		59C2DCF570D9512582093A0D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32F4F9BC0B552CBFB38544 /* SettingsView.swift */; };
+		E1B2F508117357219D69DF6B /* SwitchControlGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C963097933E5A9F87777855 /* SwitchControlGuideView.swift */; };
+		B4AEF86090A95D7D98300EF1 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BC091A93555D3921A5243 /* Theme.swift */; };
+		EDD2D6449C425D57980B5889 /* WebAutomationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB811F0248F353A59F16196D /* WebAutomationView.swift */; };
+		B55BB826ADA951658EADCDB0 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC93479744573AB046BC46 /* HapticManager.swift */; };
+		9AECFE4409C957859230A58B /* HighResTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6CB50664DD592482207B33 /* HighResTimer.swift */; };
+		A654574F53205C42A28B3C07 /* WebScriptInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE118B162DE52059ABC964A /* WebScriptInjector.swift */; };
+		37EFF7D53B465289B7771169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72AEB60743C5540E964CE385 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C28054133B75C28992F33F2 /* SwitchControlHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwitchControlHelper.swift"; sourceTree = "<group>"; };
+		1E756C97C431506F9D3744DB /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppEnvironment.swift"; sourceTree = "<group>"; };
+		7A9D041DEC7B5B7A8A0B9CB4 /* AutoClickToolkitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AutoClickToolkitApp.swift"; sourceTree = "<group>"; };
+		69B5BCEC70F95B8D8179F725 /* ActionExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActionExecutor.swift"; sourceTree = "<group>"; };
+		8B4AA41FF6FD502B88EECD9F /* AutoClickEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AutoClickEngine.swift"; sourceTree = "<group>"; };
+		29A4ADF5EF9B5CFBB63A33B3 /* InAppGestureDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InAppGestureDispatcher.swift"; sourceTree = "<group>"; };
+		0C67150F8BA3533C90885A0F /* MacroModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MacroModels.swift"; sourceTree = "<group>"; };
+		F88261BE25015FF3B06CE976 /* MacroStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MacroStorageManager.swift"; sourceTree = "<group>"; };
+		1D5C5B0A9E6856D1B443A6D4 /* AutoClickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AutoClickerView.swift"; sourceTree = "<group>"; };
+		D495A6DD2B8D5C8B9043EFA4 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActionButton.swift"; sourceTree = "<group>"; };
+		7338B9C4D13C5A02AADAD29C /* CoordinateCrosshair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoordinateCrosshair.swift"; sourceTree = "<group>"; };
+		EE44BBD4614552A59C0DBFEB /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GlassCard.swift"; sourceTree = "<group>"; };
+		B944F3547EF75A4EB11EEF10 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DashboardView.swift"; sourceTree = "<group>"; };
+		F944C92A9D7A564BB66061F1 /* MacroStudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MacroStudioView.swift"; sourceTree = "<group>"; };
+		CB746931F9B85DB8B12759AE /* StepEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StepEditorView.swift"; sourceTree = "<group>"; };
+		FE32F4F9BC0B552CBFB38544 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		7C963097933E5A9F87777855 /* SwitchControlGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwitchControlGuideView.swift"; sourceTree = "<group>"; };
+		8E3BC091A93555D3921A5243 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Theme.swift"; sourceTree = "<group>"; };
+		FB811F0248F353A59F16196D /* WebAutomationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebAutomationView.swift"; sourceTree = "<group>"; };
+		08AC93479744573AB046BC46 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HapticManager.swift"; sourceTree = "<group>"; };
+		FD6CB50664DD592482207B33 /* HighResTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HighResTimer.swift"; sourceTree = "<group>"; };
+		4BE118B162DE52059ABC964A /* WebScriptInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebScriptInjector.swift"; sourceTree = "<group>"; };
+		72AEB60743C5540E964CE385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70F137FF36965B078E35B22F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B8AA9A2A9BA5FD18DC07D72 /* AutoClickToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoClickToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7110709DB0758BE85F9923E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D2E6A3402C950B78E0D2671 = {
+			isa = PBXGroup;
+			children = (
+				7C28054133B75C28992F33F2 /* SwitchControlHelper.swift */,
+				1E756C97C431506F9D3744DB /* AppEnvironment.swift */,
+				7A9D041DEC7B5B7A8A0B9CB4 /* AutoClickToolkitApp.swift */,
+				69B5BCEC70F95B8D8179F725 /* ActionExecutor.swift */,
+				8B4AA41FF6FD502B88EECD9F /* AutoClickEngine.swift */,
+				29A4ADF5EF9B5CFBB63A33B3 /* InAppGestureDispatcher.swift */,
+				0C67150F8BA3533C90885A0F /* MacroModels.swift */,
+				F88261BE25015FF3B06CE976 /* MacroStorageManager.swift */,
+				1D5C5B0A9E6856D1B443A6D4 /* AutoClickerView.swift */,
+				D495A6DD2B8D5C8B9043EFA4 /* ActionButton.swift */,
+				7338B9C4D13C5A02AADAD29C /* CoordinateCrosshair.swift */,
+				EE44BBD4614552A59C0DBFEB /* GlassCard.swift */,
+				B944F3547EF75A4EB11EEF10 /* DashboardView.swift */,
+				F944C92A9D7A564BB66061F1 /* MacroStudioView.swift */,
+				CB746931F9B85DB8B12759AE /* StepEditorView.swift */,
+				FE32F4F9BC0B552CBFB38544 /* SettingsView.swift */,
+				7C963097933E5A9F87777855 /* SwitchControlGuideView.swift */,
+				8E3BC091A93555D3921A5243 /* Theme.swift */,
+				FB811F0248F353A59F16196D /* WebAutomationView.swift */,
+				08AC93479744573AB046BC46 /* HapticManager.swift */,
+				FD6CB50664DD592482207B33 /* HighResTimer.swift */,
+				4BE118B162DE52059ABC964A /* WebScriptInjector.swift */,
+				72AEB60743C5540E964CE385 /* Assets.xcassets */,
+				70F137FF36965B078E35B22F /* Info.plist */,
+				92C43B9FC0E65F6DB2CAB38E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92C43B9FC0E65F6DB2CAB38E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B8AA9A2A9BA5FD18DC07D72 /* AutoClickToolkit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		311244C6652659D8B6F2B2F5 /* AutoClickToolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ACB944F5C185612A580ED6D /* Build configuration list for PBXNativeTarget "AutoClickToolkit" */;
+			buildPhases = (
+				46875295CB955BE8A98FF953 /* Sources */,
+				E7110709DB0758BE85F9923E /* Frameworks */,
+				9EFB346BABF358748FD463B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoClickToolkit;
+			productName = AutoClickToolkit;
+			productReference = 9B8AA9A2A9BA5FD18DC07D72 /* AutoClickToolkit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78045946BD2D597AB9FA77CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					311244C6652659D8B6F2B2F5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 4D6435FF64F051828AC9E49B /* Build configuration list for PBXProject "AutoClickToolkit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D2E6A3402C950B78E0D2671;
+			productRefGroup = 92C43B9FC0E65F6DB2CAB38E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				311244C6652659D8B6F2B2F5 /* AutoClickToolkit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EFB346BABF358748FD463B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EFF7D53B465289B7771169 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46875295CB955BE8A98FF953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7870E0C6F45996A188BEF2 /* SwitchControlHelper.swift in Sources */,
+				705F5C88C1995CA697255715 /* AppEnvironment.swift in Sources */,
+				D0C4E9A68F955DDE9501D8A1 /* AutoClickToolkitApp.swift in Sources */,
+				FAE3D5A2227352F79A140DE5 /* ActionExecutor.swift in Sources */,
+				0984E13671555830A8215E68 /* AutoClickEngine.swift in Sources */,
+				D6F1DEA9372F5F82A2863ADC /* InAppGestureDispatcher.swift in Sources */,
+				FCC9FCCCED015A2591F02EDA /* MacroModels.swift in Sources */,
+				CA248BB59F10530B953FF285 /* MacroStorageManager.swift in Sources */,
+				659AF82BE40A5AC893289649 /* AutoClickerView.swift in Sources */,
+				0786E12DF5EF5A1CABBD379D /* ActionButton.swift in Sources */,
+				0F3369D182CB5D179FFCE009 /* CoordinateCrosshair.swift in Sources */,
+				7AEE91E7281B50EC9710F3EC /* GlassCard.swift in Sources */,
+				4E768CA17E085F7B8C5955CC /* DashboardView.swift in Sources */,
+				376E29CF7E7158228AA810B6 /* MacroStudioView.swift in Sources */,
+				830B50D137EB578993514BC7 /* StepEditorView.swift in Sources */,
+				59C2DCF570D9512582093A0D /* SettingsView.swift in Sources */,
+				E1B2F508117357219D69DF6B /* SwitchControlGuideView.swift in Sources */,
+				B4AEF86090A95D7D98300EF1 /* Theme.swift in Sources */,
+				EDD2D6449C425D57980B5889 /* WebAutomationView.swift in Sources */,
+				B55BB826ADA951658EADCDB0 /* HapticManager.swift in Sources */,
+				9AECFE4409C957859230A58B /* HighResTimer.swift in Sources */,
+				A654574F53205C42A28B3C07 /* WebScriptInjector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D5E18CC5FC05B3ABE711B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45FA7D8EA9745FFEB759DB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD1DD267311C56938DEBD1BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AutoClickToolkit/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoclick.toolkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4E9B4969A0A5DA5B9C9C233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AutoClickToolkit/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoclick.toolkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D6435FF64F051828AC9E49B /* Build configuration list for PBXProject "AutoClickToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5E18CC5FC05B3ABE711B80 /* Debug */,
+				45FA7D8EA9745FFEB759DB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ACB944F5C185612A580ED6D /* Build configuration list for PBXNativeTarget "AutoClickToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1DD267311C56938DEBD1BC /* Debug */,
+				E4E9B4969A0A5DA5B9C9C233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 78045946BD2D597AB9FA77CC /* Project object */;
+}

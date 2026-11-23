@@ -1,0 +1,50 @@
+name: Build & Package iOS IPA (Non-Jailbreak)
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build-ipa:
+    name: Build AutoClickToolkit.ipa
+    runs-on: macos-14
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Select Xcode Version
+        run: sudo xcode-select -switch /Applications/Xcode_15.4.app
+
+      - name: Verify Xcode & Swift
+        run: |
+          xcodebuild -version
+          swift --version
+
+      - name: Build Archive
+        run: |
+          xcodebuild clean archive \
+            -project AutoClickToolkit.xcodeproj \
+            -scheme AutoClickToolkit \
+            -configuration Release \
+            -archivePath build/AutoClickToolkit.xcarchive \
+            -destination "generic/platform=iOS" \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO
+
+      - name: Package Payload into IPA
+        run: |
+          mkdir -p build/Payload
+          cp -r build/AutoClickToolkit.xcarchive/Products/Applications/AutoClickToolkit.app build/Payload/
+          cd build
+          zip -r AutoClickToolkit_v1.0.0.ipa Payload
+          cd ..
+
+      - name: Upload IPA Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: AutoClickToolkit-Release-IPA
+          path: build/AutoClickToolkit_v1.0.0.ipa
+          retention-days: 30
